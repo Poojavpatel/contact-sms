@@ -1,0 +1,25 @@
+.nav{
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    background: #319788;
+    justify-content: space-between;
+    color: white;
+}
+.navheader{
+    margin: auto 1%;
+}
+.boxy{
+    height: 50%;
+    padding: 2%;
+    margin: auto 12%;
+    color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
