@@ -16,7 +16,15 @@ class Contacts extends Component {
     
     return (
     		<div className="contacts">
-                {this.props.myUsers}
+                {this.props.myUsers.length && this.props.myUsers.map((element) => {
+                    return (
+                        <div>
+                            <span>{element.name}</span>
+                            <span>{element.msg}</span>
+                            <img src={element.img} alt="image "/>
+                        </div>
+                    )
+                })}
       		</div>
     );
   }

@@ -7,8 +7,13 @@ class Nav extends Component {
     		<div className="nav">
 				<div className="navheader">Conversations</div>
 				<div className="icons">
-					<div className="boxy"><i class="fas fa-comment-alt"></i></div>
-					<div className="boxy"><i class="fas fa-user-plus"></i></div>
+					<div className="boxy" >
+						<i class="fas fa-comment-alt">	
+						</i>
+					</div>
+					<div className="boxy">
+						<i class="fas fa-user-plus"></i>
+					</div>
 				</div>
       		</div>
     );
