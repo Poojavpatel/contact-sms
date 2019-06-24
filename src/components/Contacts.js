@@ -9,40 +9,14 @@ class Contacts extends Component {
     //     this.setState({
     //         userdata:data
     //     })
-    // }
-    myUsers=[
-        {
-            "name":"Leanne Graham",
-            "msg":"Multi-layered client-server neural-net",
-            "img":"https://randomuser.me/api/portraits/men/81.jpg"
-        },
-        {
-            "name":"Leanne Graham",
-            "msg":"Multi-layered client-server neural-net",
-            "img":"https://randomuser.me/api/portraits/men/81.jpg"
-        },
-        {
-            "name":"Leanne Graham",
-            "msg":"Multi-layered client-server neural-net",
-            "img":"https://randomuser.me/api/portraits/men/81.jpg"
-        },
-        {
-            "name":"Leanne Graham",
-            "msg":"Multi-layered client-server neural-net",
-            "img":"https://randomuser.me/api/portraits/men/81.jpg"
-        },
-        {
-            "name":"Leanne Graham",
-            "msg":"Multi-layered client-server neural-net",
-            "img":"https://randomuser.me/api/portraits/men/81.jpg"
-        }
-    ]
+    
 
   render() {
+    
+    
     return (
     		<div className="contacts">
-                {this.userdata}
-                Contacts here
+                {this.props.myUsers}
       		</div>
     );
   }
